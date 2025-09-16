@@ -41,7 +41,7 @@ function draw() {
 function drawHuman() {
   // Draw a head
   noStroke();
-  fill("#f3e0caff");
+  fill("#f5dec3ff");
   ellipse(500, 390, 300, 330);
 
   // Draw a

@@ -49,6 +49,15 @@ function drawHuman() {
   fill("#f5dec3ff");
   rect(310, 650, 380, 320, 20);
 
+  //Draw a tank top
+  noStroke();
+  fill("#dea5f0ff");
+  square(400, 715, 200);
+
+  //Draw the straps of the tank top
+  noStroke();
+  fill("#dea5f0ff");
+
   // Draw a head
   noStroke();
   fill("#f5dec3ff");

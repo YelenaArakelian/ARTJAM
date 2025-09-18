@@ -39,10 +39,15 @@ function draw() {
 }
 
 function drawHuman() {
+  //Draw a torso
+
+  // Draw a neck
+  noStroke();
+  fill("#f1d3afff");
+  square(440, 550, 120);
+
   // Draw a head
   noStroke();
   fill("#f5dec3ff");
-  ellipse(500, 390, 300, 330);
-
-  // Draw a
+  ellipse(500, 430, 300, 350);
 }

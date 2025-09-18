@@ -54,9 +54,12 @@ function drawHuman() {
   fill("#dea5f0ff");
   square(400, 715, 200);
 
-  //Draw the straps of the tank top
-  noStroke();
-  fill("#dea5f0ff");
+  //Draw the left straps
+  stroke("#dea5f0ff");
+  strokeWeight(4);
+  line(403, 715, 438, 650);
+
+  //Draw the right straps
 
   // Draw a head
   noStroke();

@@ -19,16 +19,16 @@ function setup() {
  * Draws land, a sun, a dog,
  */
 function draw() {
-  // Draw the land
+  //Draw the land
   noStroke();
   fill("#87ab69");
   rect(0, 650, 1000, 200);
 
-  // Draw the sun
+  //Draw the sun
   fill("#FFDF22");
   circle(100, 100, 130);
 
-  // Draw the cloud
+  //Draw the cloud
   fill("808080");
   ellipse(190, 100, 170, 80);
   fill("808080");
@@ -39,7 +39,7 @@ function draw() {
 }
 
 function drawHuman() {
-  // Draw a neck
+  //Draw a neck
   noStroke();
   fill("#f1d3afff");
   square(440, 550, 120);
@@ -51,18 +51,21 @@ function drawHuman() {
 
   //Draw a tank top
   noStroke();
-  fill("#dea5f0ff");
+  fill("#a841c7ff");
   square(400, 715, 200);
 
   //Draw the left straps
-  stroke("#dea5f0ff");
+  stroke("#a841c7ff");
   strokeWeight(4);
   line(403, 715, 438, 650);
 
   //Draw the right straps
+  stroke("#a841c7ff");
+  strokeWeight(4);
+  line(597, 715, 562, 650);
 
-  // Draw a head
+  //Draw a head
   noStroke();
   fill("#f5dec3ff");
-  ellipse(500, 430, 300, 330);
+  ellipse(500, 430, 305, 330);
 }
